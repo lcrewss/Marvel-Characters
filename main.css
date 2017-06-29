@@ -1,0 +1,43 @@
+header {
+  margin: -1em;
+  padding: 0em;
+
+}
+
+.backgroundImg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: "";
+  z-index: -1;
+}
+
+.enterButton{
+  position: relative;
+  margin-top: 20px;
+  margin-left: 65px;
+  margin-bottom: 0%;
+
+}
+#enter {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  color: red;
+  display: block;
+  margin-top: 300px;
+  margin-left: 850px;
+  margin-bottom: 0px;
+  height: 5em;
+  width: 8em;
+  font-weight: 500;
+  font-size: 80%;
+  font-family: arial black;
+}

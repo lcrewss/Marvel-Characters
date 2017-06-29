@@ -1,3 +1,14 @@
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+      
 .logo {
   height: 200px;
   width: 350px;
@@ -31,14 +42,6 @@ body {
   display: none;
 }
 
-ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 75%;
-  margin-left: 40px;
-  margin-top: 10%;
-}
 .tag {
   color: white;
   display: flex;
@@ -99,6 +102,6 @@ ul {
 
 footer {
   color: white;
-  position: absolute;
   bottom: 0;
+  align-items: flex-end;
 }

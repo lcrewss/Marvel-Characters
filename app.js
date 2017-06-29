@@ -53,11 +53,8 @@ $.get("https://gateway.marvel.com/v1/public/characters?limit=100&offset=0&ts=150
 function getComics(id) {
   $.get("https://gateway.marvel.com:443/v1/public/characters/"+ id + "/comics?&apikey=9a0703bf8b52719c00d7bc05796addd9&hash=9169e2818a095dd8912b7b7222b40790&ts=1500829120")
   .then(function (data){
-
-  function hideComics(){
-    getComics.remove()
-  }
-
+    
+    $comics.empty()
     for(var j = 0; j < data.data.results.length; j++){
       $comics.append('<img src="' + data.data.results[j].images[0].path +"/"+ "portrait_xlarge" + "." + data.data.results[j].images[0].extension+ '">')
       console.log($comics)

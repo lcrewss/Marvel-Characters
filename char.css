@@ -4,6 +4,11 @@
 
 }
 
+.loading {
+  width: 25%;
+  margin-left: 50%
+}
+
 .backgroundImg {
   background-position: center;
   background-repeat: no-repeat;
@@ -76,11 +81,21 @@ ul {
   /*float: left;*/
 }
 
+#popup:hover{
+  width: 35%;
+  height: 35%;
+}
+
 .comics {
   margin-top: 20%;
   padding: 20%;
   width: 100;
   float: right;
-  margin: 10px 0px 15px 15px
+  margin: 10px 0px 15px 15px;
+}
 
+footer {
+  color: white;
+  position: absolute;
+  bottom: 0;
 }

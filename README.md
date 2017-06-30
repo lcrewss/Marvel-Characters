@@ -14,4 +14,4 @@ Notice as the page is loaded, I added a gif loader for user interactin while the
 The Marvel logo will bring you back to the home screen page for user.*
 
 ![Marvel Comic Screenshot]
-(/Marvel_Comic_ScreenShot.png)
+(https://github.com/lcrewss/Marvel-Characters/blob/master/Marvel_Character_ScreenShot.png)

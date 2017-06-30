@@ -30,6 +30,7 @@ $role.change(function(event){
     $imgPhoto.attr("src", image)
     getComics($id)
 
+
     if (!description) {
       $descrip.text(" SORRY, " + " NO DESCRIPTION AVAILABLE ! ")
     }

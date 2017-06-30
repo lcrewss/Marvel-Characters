@@ -1,6 +1,7 @@
 # Marvel-Characters
 
-Marvel!  What is there not to like....
+
+*Marvel!  What is there not to like....*
 
 This application is designed to give the user an informative description of their desired character. 
 
@@ -10,4 +11,4 @@ Upon selecting their character an image and description of the character will po
 which that specific character is in. 
 
 Notice as the page is loaded, I added a gif loader for user interactin while the site completes. 
-The Marvel logo will bring you back to the home screen page for user. 
+The Marvel logo will bring you back to the home screen page for user.*

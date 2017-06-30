@@ -1,5 +1,6 @@
 
 body {
+    background-color: black;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
@@ -8,7 +9,7 @@ body {
   main {
     flex: 1 0 auto;
   }
-      
+
 .logo {
   height: 200px;
   width: 350px;
@@ -35,9 +36,6 @@ body {
   opacity: 0.5;
 }
 
-body {
-  background-color: black;
-}
 .hide {
   display: none;
 }
@@ -102,6 +100,4 @@ body {
 
 footer {
   color: white;
-  bottom: 0;
-  align-items: flex-end;
 }

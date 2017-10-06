@@ -12,3 +12,8 @@ which that specific character is in.
 
 Notice as the page is loaded, I added a gif loader for user interactin while the site completes. 
 The Marvel logo will bring you back to the home screen page for user.*
+
+![Marvel Comic Screenshot](https://github.com/lcrewss/Marvel-Characters/blob/master/Marvel_Comic_ScreenShot.png)
+![Marvel Comic Screenshot](https://github.com/lcrewss/Marvel-Characters/blob/master/Marvel_Character_ScreenShot.png)
+
+

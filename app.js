@@ -6,6 +6,7 @@ var $imgPhoto = $("#imgTag")
 var $comicImage = $(".comicImg")
 var $comics = $(".comics")
 var loading = document.getElementById("loadScreen")
+var comicIdURL = "https://gateway.marvel.com:443/v1/public/characters/"
 
 $role.change(function(event){
   loading.classList.remove("hide")
@@ -41,10 +42,10 @@ $.get("https://gateway.marvel.com/v1/public/characters?limit=100&offset=0&ts=150
 .then(function (data) {
     for( var i = 0; i < data.data.results.length; i++){
       $role.append('<option id="' + data.data.results[i].id + '" value="">' + data.data.results[i].name + '</option>')
-    }
+    } console.log(data);
 })
 function getComics(id) {
-  $.get("https://gateway.marvel.com:443/v1/public/characters/"+ id + "/comics?&apikey=9a0703bf8b52719c00d7bc05796addd9&hash=9169e2818a095dd8912b7b7222b40790&ts=1500829120")
+  $.get(comicIdURL + id + "/comics?&apikey=9a0703bf8b52719c00d7bc05796addd9&hash=9169e2818a095dd8912b7b7222b40790&ts=1500829120")
   .then(function (data){
     loading.classList.add("hide")
     $comics.empty()
